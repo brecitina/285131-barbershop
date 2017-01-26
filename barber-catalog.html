@@ -8,8 +8,8 @@
   <body>
     <header class="main-header">
       <div class="conteiner">
-        <a href="index.html"><img src="img/Logo.png" style="width: 111px; height: 24px" alt="Барбершоп-лого"></a>
         <nav class="main-nav">
+          <a href="index.html"><img src="img/Logo.png" style="width: 111px; height: 24px" alt="Барбершоп-лого"></a>
           <ul>
             <li><a class="main-nav-item" href="#" >Информация</a></li>
             <li><a class="main-nav-item" href="#">Новости</a></li>
@@ -37,45 +37,49 @@
           <form action="#" method="get">
             <div class="filter-producers">
               <h2>Производители:</h2>
-              <div>
-                <input type="checkbox" id="producer1">
-                <label for="producer1">Baxter of california</label>
-              </div>
-              <div>
-                <input type="checkbox" id="producer2">
-                <label for="producer2">Mr Natty</label>
-              </div>
-              <div>
-                <input type="checkbox" id="producer3">
-                <label for="producer3">Suavecito</label>
-              </div>
-              <div>
-                <input type="checkbox" id="producer4">
-                <label for="producer4">Malin+Goetz</label>
-              </div>
-              <div>
-                <input type="checkbox" id="producer5">
-                <label for="producer5">Murray's</label>
-              </div>
-              <div>
-                <input type="checkbox" id="producer6">
-                <label for="producer6">American crew</label>
-              </div>
+              <ul>
+                <li>
+                  <input type="checkbox" id="producer1" name="produser" value="baxter of california">
+                  <label for="producer1">Baxter of california</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="producer2" name="produser" value="mr Natty">
+                  <label for="producer2">Mr Natty</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="producer3" name="produser" value="suavecito">
+                  <label for="producer3">Suavecito</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="producer4" name="produser" value="malin+Goetz">
+                  <label for="producer4">Malin+Goetz</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="producer5" name="produser" value="murray's">
+                  <label for="producer5">Murray's</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="producer6" name="produser" value="american crew">
+                  <label for="producer6">American crew</label>
+                </li>
+              </ul>
             </div>
             <div class="filter-groups">
               <h2>Группы товаров:</h2>
-              <div>
-                <input type="checkbox" id="product-group1">
-                <label for="product-group1">Бритвенные принадлежности</label>
-              </div>
-              <div>
-                <input type="checkbox" id="product-group2">
-                <label for="product-group2">Средства для ухода</label>
-              </div>
-              <div>
-                <input type="checkbox" id="product-group3">
-                <label for="product-group3">Аксессуары</label>
-              </div>
+              <ul>
+                <li>
+                  <input type="radio" id="product-group1" name="product-group" value="shaving">
+                  <label for="product-group1">Бритвенные принадлежности</label>
+                </li>
+                <li>
+                  <input type="radio" id="product-group2" name="product-group" value="care">
+                  <label for="product-group2">Средства для ухода</label>
+                </li>
+                <li>
+                  <input type="radio" id="product-group3" name="product-group" value="accessories">
+                  <label for="product-group3">Аксессуары</label>
+                </li>
+              </ul>
             </div>
             <button class="btn" type="submit">Показать</button>
           </form>
