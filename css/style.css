@@ -107,9 +107,9 @@ main {
   margin-right: 0;
 }
 
-.catalog-items .paginator {
-  clear: both;
-  padding-top: 25px;
+.paginator {
+  margin-top: 25px;
+  margin-left: 240px;
   outline: 2px solid #856830;
 }
 
