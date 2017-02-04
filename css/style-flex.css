@@ -1,0 +1,173 @@
+html,
+body {
+  min-width: 1122px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  font-family: "PTSans NarrowBold";
+  text-transform: uppercase;
+  color:  #ffffff;
+  background-color: #000000;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.filters h2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  outline: 2px solid #103F16;
+}
+
+.main-header-layout {
+  display: flex;
+  justify-content: space-between;
+  outline: 2px solid #856830;
+}
+
+.main-nav {
+  width: 780px;
+  outline: 2px solid #B44F64;
+}
+
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.user-block {
+  width: 140px;
+  outline: 2px solid #B44F64;
+}
+
+main {
+  padding-top: 53px;
+  padding-bottom: 50px;
+  color: #000000;
+  background-color: f7f4f1;
+  background-image: url("../img/fon-white.png");
+  background-repet: repet;
+  outline: 2px solid #ff0000;
+}
+
+main h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumbs {
+  margin-top: 21px; 
+  margin-bottom: 54px;
+  outline: 2px solid #B44F64;
+}
+
+.catalog-layout {
+  display: flex;
+  outline: 2px solid #FFFF00;
+}
+
+.filters {
+  flex-shrink: 0;
+  margin: 0;
+  margin-right: 20px;
+  padding: 0;
+  outline: 2px solid #B44F64;
+}
+
+.catalog-items {
+  width: 700px;
+  flex-shrink: 0;
+  outline: 2px solid #B44F64;
+}
+
+.filters-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.filters .filter {
+  max-width: 220px;
+  margin-bottom: 50px;
+  outline: 2px solid #3A6D69;
+}
+
+.filters h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.filters ul {
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-items-layout {
+  display: inline-flex;
+  width: 700px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  outline: 2px solid #FFFF00;
+}
+
+.catalog-item {
+  width: 220px;
+  height: 287px;
+  flex-shrink: 0;
+  outline: 2px solid #3A6D69;
+}
+
+.catalog-item:nth-child(-n+3) {
+  margin-bottom: 20px;
+}
+
+.paginator {
+  margin-top: 45px;
+  margin-left: 240px;
+  padding: 0;
+  outline: 2px solid #FFFF00;
+}
+
+.main-footer {
+  padding-top: 58px;
+  padding-bottom: 39px;
+  color: #ffffff;
+  background-color: #232323;
+  background-image: url("../img/fon-grey.png");
+  background-repeat: repeat;
+}
+
+.main-footer-layout {
+  display: flex;
+  outline: 2px solid #FFFF00;
+}
+
+.footer-contacts {
+  width: 320px;
+  margin-right: 60px;
+  outline: 2px solid #B44F64;
+}
+
+.footer-social {
+  width: 180px;
+  margin-right: auto;
+  outline: 2px solid #B44F64;
+}
+
+.footer-authors {
+  width: 140px;
+  outline: 2px solid #B44F64;
+}
