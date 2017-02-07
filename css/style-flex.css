@@ -17,9 +17,9 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  font-size: 30px;
-  line-height: 42px;
+img { 
+  max-width: 100%;
+  height; auto;
 }
 
 .btn {
@@ -147,6 +147,8 @@ main {
 main h1 {
   margin: 0;
   padding: 0;
+  font-size: 30px;
+  line-height: 42px;
 }
 
 .breadcrumbs {
@@ -176,6 +178,10 @@ main h1 {
 
 .breadcrumbs a:hover {
   color: #663d15;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
 }
 
 .breadcrumbs li::before {
@@ -370,7 +376,7 @@ input + label:hover {
 
 .catalog-item {
   width: 220px;
-  height: 287px;
+  min-height: 287px;
   margin-bottom: 20px;
   flex-shrink: 0;
   font-size: 0;
