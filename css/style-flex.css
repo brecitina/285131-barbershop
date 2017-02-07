@@ -344,22 +344,23 @@ input + label:hover {
   color: #663d15;
 }
 
-.filters button {
-  margin: 0;
+.filters .btn {
   margin-top: -2px; 
-  padding: 0;
+  padding-left: 33px;
+  padding-right: 25px; 
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
   color:  #ffffff;
+  background-color: #000000;
   border: none;
+  cursor: pointer;
 }
 
-.filters .btn {
-  padding-left: 33px;
-  padding-right: 25px; 
+.filters .btn:hover {
+  background-color: #663d15;
 }
 
 .catalog-items {
@@ -371,12 +372,12 @@ input + label:hover {
   display: flex;
   width: 700px;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .catalog-item {
   width: 220px;
   min-height: 287px;
+  margin-right: 20px;
   margin-bottom: 20px;
   flex-shrink: 0;
   font-size: 0;
@@ -385,8 +386,8 @@ input + label:hover {
   box-shadow: 0px 0px 15px 0px rgba(0, 1, 1, 0.2); 
 }
 
-.catalog-item:nth-child(3n+2):nth-last-child(2) {
-  margin-left: 20px;
+.catalog-item:nth-child(3n),
+.catalog-item:nth-last-child(2) {
   margin-right: auto;
 }
 
